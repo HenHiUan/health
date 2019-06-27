@@ -1,10 +1,14 @@
 {
   "private": true,
+  "homepage": "https://henhiuan.github.io/health/Money/public/index.html",
   "scripts": {
-    "start": "roadhog server",
-    "build": "roadhog build",
-    "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "gh-pages": "react-scripts build && gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "antd-mobile": "^2.2.14",
