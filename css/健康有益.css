@@ -1,0 +1,633 @@
+html,body{
+    width: 100%;
+    height:auto;
+}
+#box{
+    width: 100%;
+    height: auto;
+    /* background: skyblue; */
+}
+*{
+    box-sizing: border-box;
+}
+
+/* =================头部====================== */
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url(../images/健康有益/images/79f78c75-d15b-4dc3-8de2-4ba32aa3064c.png) center center;
+    overflow: hidden;
+}
+.banner .header{
+    width: 100%;
+    height: 60px;
+    min-width: 800px;
+    background:rgba(0, 0, 0, .1);
+}
+.header h1{
+    background: url(../images/健康有益/images/logo_b.png) no-repeat;
+    background-size: 100% 100%;
+    height: 36px;
+    width: 109px;
+    text-indent: -999px;
+    margin-top: 12px;
+    margin-left: 85px;
+    float: left;
+}
+.header h1 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header .navigation{
+    float: right;
+    margin-right: 85px;
+}
+.header .navigation li{
+    float: left;
+    margin-left: 45px;
+    line-height: 60px;
+    color: #999999;
+    font-size: 12px;
+}
+.header .navigation li a:hover{
+    color:blue;
+}
+.header:hover{
+    background: white;
+}
+.header:hover h1{
+    background: url(../images/健康有益/images/logo_t.png);
+    background-size: 100% 100%;
+}
+
+/* =====================中部==================== */
+#box .main{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+.main .main-1{
+    width:100%;
+    height:auto;
+    /* margin:auto; */
+    margin-top: 50px;
+} 
+.main h2{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+.main .main-1 .main-1-p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 44px;
+    text-align: center;
+}
+.main .main-1 .content{
+    width: 1180px;
+    /* height: 500px; */
+    margin:auto;
+    margin-top: 21px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main h3{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 20px;
+}
+
+/* =================智能家庭=================== */
+
+.main-1 .content .content-left{
+    width: 580px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-1 .content-left .content-left-1{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.content-left-1 img{
+    width: 100%;
+    height: 100%;
+}
+/* .content-left-1 h3{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 40px;
+    margin-left: 20px;
+} */
+.content-left-1 p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    opacity: 0;
+    width: 540px;
+    margin-left: 20px;
+}
+.content-left-1:hover h3{
+    transform: translateY(-50px);
+    transition: transform 0.5s;
+}
+.content-left-1:hover p{
+    transform: translateY(-50px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-left-1:hover img{
+    filter: blur(10px);
+    transition: all 1s;
+}
+
+
+/* ===================智慧养老================= */
+.main-1 .content-left .content-left-2{
+    width: 280px;
+    height: 240px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.content-left-2 img{
+    width: 100%;
+    height: 100%;
+}
+.content-left-2 p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    width: 240px;
+    margin-left: 20px;
+}
+.content-left-2:hover h3{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+}
+.content-left-2:hover p{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-left-2:hover img{
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+/* ==================智慧社区======================= */
+
+.main-1 .content-left .content-left-3{
+    width: 280px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.content-left-3 img{
+    width: 100%;
+    height: 100%;
+}
+.content-left-3 p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    width: 240px;
+    margin-left: 20px;
+}
+.content-left-3:hover h3{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+}
+.content-left-3:hover p{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-left-3:hover img{
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+/* ==================智慧医疗==================== */
+
+
+.main-1 .content .content-center{
+    width: 280px;
+    height: 500px;
+}
+.content .content-center .content-center-1{
+    width: 280px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-center-1 img{
+    width: 100%;
+    height: 100%;
+}
+.content-center-1 p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    width: 240px;
+    margin-left: 20px;
+}
+.content-center-1:hover h3{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+}
+.content-center-1:hover p{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-center-1:hover img{
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+
+/* ====================新零售=================== */
+
+.content .content-center .content-center-2{
+    width: 280px;
+    height: 240px;
+    background: url(../images/健康有益/images/sell_bg.png);
+    background-size: 100% 100%;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.content-center-2 img{
+    width: 100%;
+    height: 100%;
+}
+.content-center-2 p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    width: 240px;
+    margin-left: 20px;
+}
+.content-center-2:hover h3{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+}
+.content-center-2:hover p{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-center-2:hover img{
+    filter: blur(3px);
+    transition: all 1s;
+}
+
+
+/* ===================政府/企业===================== */
+
+
+
+.main-1 .content .content-right{
+    width:280px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.content-right img{
+    width: 100%;
+    height: 100%;
+}
+.content-right p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    opacity: 0;
+    width: 240px;
+    margin-left: 20px;
+}
+.content-right:hover h3{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+}
+.content-right:hover p{
+    transform: translateY(-70px);
+    transition: transform 0.5s;
+    opacity: 1;
+}
+.content-right:hover img{
+    filter: blur(10px);
+    transition: all 1s;
+}
+
+/* =========================中部（第二块）====================*/
+.main-2{
+    width: 100%;
+    /* height: 430px; */
+    overflow: hidden;
+}
+.main-2 h2{
+    margin-top: 50px;
+}
+.main-2 .main-2-content{
+    width: 1180px;
+    height: 252px;
+    margin: 0 auto;
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-2-content1,
+.main-2-content2,
+.main-2-content3{
+    width: 380px;
+    height: 250px;
+    border: 1px solid #cccccc;
+    transition: transform 0.5s;
+    background:rgba(255, 255, 255, 0);
+}
+.main-2 .main-2-content img{
+    width: 100%;
+}
+.main-2 .main-2-content .p1{
+    font-size: 16px;
+    margin-top: 17px;
+    margin-left: 11px;
+}
+.main-2-content1:hover,
+.main-2-content2:hover,
+.main-2-content3:hover{
+    transform: translateY(-6px);
+    box-shadow: 1px 3px 8px 0px skyblue;
+    background: rgba(255, 255, 255, 1);
+}
+.main-2 .lonely-p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+/* ======================中部（第三块）=================== */
+.main .main-3{
+    width: 100%;
+}
+
+.main-3 .main3-content{
+    width: 1180px;
+    height: 180px;
+    margin: 56px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main3-content1,
+.main3-content2,
+.main3-content3,
+.main3-content4{
+    width: 278px;
+    height: 178px;
+    border: 1px solid #1258f8;
+    position: relative;
+    overflow: hidden;
+    transition:all 0.5s;
+}
+.main-3 p{
+    margin-top: 110px;
+    text-align: center;
+    position: absolute;
+    left: 39%;
+}
+.main-3 .img1{
+    width: 60px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 109px;
+    position: absolute;
+    z-index: 3
+}
+.main-3 .img2{
+    width: 60px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 109px;
+    position: absolute;
+}
+.l-t{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    transition:filter .8s;
+    opacity: 0;
+}
+.r-b{
+    width: 120px;
+    height: 120px;
+    background: #25d0fb;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    transition:filter .8s;
+    opacity: 0;
+}
+
+.main3-content1:hover{
+    background: #66a4ff;
+    transform: translateY(-5px)
+}
+.main3-content1:hover .l-t{
+    filter: blur(30px);
+    opacity: 1;
+}
+.main3-content1:hover .r-b{
+    filter: blur(20px);
+    opacity: 1;
+}
+.main3-content1:hover .img1{
+    opacity: 0;
+}
+.main3-content1:hover .img2{
+    z-index: 5;
+}
+.main3-content1:hover p{
+    color: white;
+    z-index: 5;
+}
+
+/* ========================================== */
+
+.main3-content2:hover{
+    background: #66a4ff;
+    transform: translateY(-5px)
+}
+.main3-content2:hover .l-t{
+    filter: blur(30px);
+    opacity: 1;
+}
+.main3-content2:hover .r-b{
+    filter: blur(20px);
+    opacity: 1;
+}
+.main3-content2:hover .img1{
+    opacity: 0;
+}
+.main3-content2:hover .img2{
+    z-index: 5;
+}
+.main3-content2:hover p{
+    color: white;
+    z-index: 5;
+}
+
+/* =============================================== */
+.main3-content3:hover{
+    background: #66a4ff;
+    transform: translateY(-5px)
+}
+.main3-content3:hover .l-t{
+    filter: blur(30px);
+    opacity: 1;
+}
+.main3-content3:hover .r-b{
+    filter: blur(20px);
+    opacity: 1;
+}
+.main3-content3:hover .img1{
+    opacity: 0;
+}
+.main3-content3:hover .img2{
+    z-index: 5;
+}
+.main3-content3:hover p{
+    color: white;
+    z-index: 5;
+}
+/* ========================================== */
+
+.main3-content4:hover{
+    background: #66a4ff;
+    transform: translateY(-5px)
+}
+.main3-content4:hover .l-t{
+    filter: blur(30px);
+    opacity: 1;
+}
+.main3-content4:hover .r-b{
+    filter: blur(20px);
+    opacity: 1;
+}
+.main3-content4:hover .img1{
+    opacity: 0;
+}
+.main3-content4:hover .img2{
+    z-index: 5;
+}
+.main3-content4:hover p{
+    color: white;
+    z-index: 5;
+}
+
+
+
+/* ============================底部====================== */
+.footer{
+    width: 100%;
+    /* height: 277px; */
+    background: #424b61;
+    overflow: hidden;
+}
+.footer .footer-content{
+    width:1180px;
+    /* height: 187px; */
+    margin: auto;
+    margin-top: 64px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.dl-1 dt{
+    width: 110px;
+    height: 38px;
+    background: url(../images/健康有益/images/logo_b.png);
+    background-size: 100% 100%;
+}
+.dl-1 dd{
+    font-size: 12px;
+    color: white;
+}
+.dl-1 dd:nth-child(2){
+    margin-top: 25px;
+    line-height: 23px;
+}
+.dl-1 dd:nth-child(4){
+    margin-top: 23px;
+}
+
+.dl-2{
+    margin-left: 250px;
+}
+.dl-2 dt{
+    font-size: 18px;
+    color:white;
+    margin-bottom: 28px;
+}
+.dl-2 dd{
+    font-size: 12px;
+    color:#b2b5be;
+    line-height: 24px;
+}
+
+.dl-3{
+    margin-left: 250px;
+}
+.dl-3 dt{
+    font-size: 18px;
+    color:white;
+}
+.dl-3 dd:nth-child(2) img{
+    width: 24px;
+} 
+.dl-3 dd:nth-child(2){
+    width: 66px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+}
+.dl-3 dd:nth-child(3) img{
+    width: 80px;
+} 
+
+.lonely-p2{
+    font-size: 12px;
+    color: #5f6c79;
+    margin-left: 82px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
